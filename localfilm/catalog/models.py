@@ -5,7 +5,7 @@ from datetime import date
 
 class filmini(models.Model):
     """A typical class defining a model, derived from the Model class."""
-
+    db_table = 'catalog_filmini'
     # Fields
     title = models.CharField(max_length=50, help_text='Enter field documentation')
     id = models.AutoField(primary_key = True)

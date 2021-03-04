@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba46ff59-4ecc-4179-8c0a-367029f1063c" name="Default Changelist" comment="yes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localfilm/filminini.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/filminini.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localfilm/localfilm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/localfilm/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614789619029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="yes">
+      <created>1614791753855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614791753855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,6 +73,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yes" />
