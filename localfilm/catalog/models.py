@@ -11,17 +11,20 @@ class filmini(models.Model):
     id = models.AutoField(primary_key = True)
     tagline = models.TextField()
     overview = models.TextField()
-    status = models.CharField(max_length=10)
+    status = models.CharField(max_length=10,  default='def_error')
     revenue = models.IntegerField()
-    #release_date = models.DateField()
+    #release_date = models.DateTimeField()
     popularity = models.FloatField()
     original_language = models.CharField(max_length=2)
     budget = models.IntegerField()
     runtime = models.IntegerField()
+    producer = models.CharField(max_length=10,  default='regista')
+
+
 
     class Meta:
         ordering = ['title']
-        #db_table = 'catalog_filmini'
+        db_table = 'filmini'
 
     def get_absolute_url(self):
         return reverse('filmini-detail', args=[str(self.id)])

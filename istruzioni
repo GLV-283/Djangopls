@@ -1,0 +1,16 @@
+
+
+
+scrivere le istruzioni per la migrazione
+py manage.py makemigrations
+
+migrare per creare tabs non esistenti
+py manage.py migrate
+
+
+migrare quando bisogna usare tables presistenti
+python manage.py migrate <your_app> --fake
+
+
+avviare il server
+py manage.py runserver
