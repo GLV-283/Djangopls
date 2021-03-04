@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Film List</h1>
+  {% if filmini_list %}
+  <ul>
+    {% for film in filmini_list %}
+      <li>
+        <a href="{{ film.get_absolute_url }}">{{ film.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no films in Blockbuster.</p>
+  {% endif %}
+{% endblock %}

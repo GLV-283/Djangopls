@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba46ff59-4ecc-4179-8c0a-367029f1063c" name="Default Changelist" comment="yes">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/catalog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/catalog/filmini_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/catalog/filmini_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localfilm/catalog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localfilm/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localfilm/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localfilm/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localfilm/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localfilm/localfilm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/localfilm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/filminini.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/filminini.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localfilm/localfilm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/localfilm/localfilm/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,8 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614791753855</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="yes">
+      <created>1614849303982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614849303983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
